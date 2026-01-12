@@ -1,2 +1,28 @@
-\venv\
-venv
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ML Models (comment out if you want to track models)
+# *.joblib
+# *.pkl
+
+# Data files (uncomment if you don't want to track data)
+# *.csv
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
